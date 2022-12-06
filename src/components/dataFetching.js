@@ -23,7 +23,7 @@ const DataFetching = () => {
     useEffect(() => {
         axios.get(`https://jsonplaceholder.typicode.com/posts/${idFromButtonClick}`)
             .then(res => {
-                console.log("response..",res)
+                // console.log("response..",res)
                 setPosts(res.data)
             })
             .catch(err => {
