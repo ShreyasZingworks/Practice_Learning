@@ -1,4 +1,5 @@
-import DataFetching from "./components/dataFetching"
+// import DataFetching from "./components/dataFetching"
+import ProtalDemo from './components/PortalDemo';
 import 'bootstrap/dist/css/bootstrap.min.css';
 // import logo from './logo.svg';
 import './App.css';
@@ -6,7 +7,8 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <DataFetching />
+      {/* <DataFetching /> */}
+      <ProtalDemo />  
     </div>
   );
 }
